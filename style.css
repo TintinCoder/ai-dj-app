@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Corinthia:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.title {
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 183, 255);
+    width: 100vw;
+}
+
+.title > h3 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.title > span {
+    font-size: 18px;
+}
+
+.speed {
+    float: left;
+}
+
+.volume {
+    float: right;
+}
+
+.gifs {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#playBtn {
+    position: absolute;
+    width: 100px;
+    font-weight: bold;
+    top: 120px;
+    left: 45%;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0%;
+    color: white;
+    background-color: transparent;
+}
+.footer-txt {
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    font-family: 'Bakbak One', cursive;
+}
+
+canvas {
+    border: 2px solid chartreuse;
+    border-radius: 10px;
+    box-shadow: 15px 15px 36px rgb(80, 188, 255);
+    position: absolute;
+    top: 120px
+};
